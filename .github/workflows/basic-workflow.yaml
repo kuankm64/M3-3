@@ -29,7 +29,7 @@ jobs:
           images: ${{ secrets.DOCKER_USERNAME }}/flask-app-M3.3
           tags: |
             type=sha
-            type= raw,value=latest
+           
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
