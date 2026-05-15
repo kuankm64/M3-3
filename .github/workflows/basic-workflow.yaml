@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/flask-app
+          images: ${{ secrets.DOCKER_USERNAME }}/flask-app-M3.3
           tags: |
             type=sha
             type=latest
